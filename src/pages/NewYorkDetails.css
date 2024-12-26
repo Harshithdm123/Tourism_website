@@ -1,0 +1,17 @@
+.new-york-details {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .details-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .new-york-details p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
+  

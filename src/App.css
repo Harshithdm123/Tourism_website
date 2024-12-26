@@ -1,0 +1,114 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('C:/Users/Harshith D M/Documents/tourism/src/images/Alvas7.jpg'); /* Replace with the path to your image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Keeps the background image fixed during scrolling */
+  color: #333;
+}
+.App-header {
+  background-color: #79d0e3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.App-navbar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-menu li {
+  display: inline;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-main {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  animation: moveCarousel 10s linear infinite;
+}
+
+@keyframes moveCarousel {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
+
+.App-footer {
+  text-align: center;
+  background-color: #6200ea;
+  color: white;
+  padding: 10px;
+}
+
+
+
+
+
+#about {
+  color: white;
+  text-align: center; /* Optional: To center the text */
+  padding: 20px; /* Optional: Adds some padding for spacing */
+  background-color: #333; /* Optional: Adds a dark background for contrast */
+  border-radius: 8px; /* Optional: Gives rounded corners */
+}
+
+#about h2 {
+  font-size: 2rem; /* Adjust heading size */
+  margin-bottom: 10px; /* Adds space below the heading */
+  color: #ffcc00; /* Optional: Add a distinct color for the heading */
+}
+
+#about p {
+  font-size: 1rem; /* Adjust paragraph size */
+  line-height: 1.6; /* Improve readability with line height */
+}
+
+
+
+
+
+#contact {
+  color: rgb(16, 14, 14);
+  text-align: center; /* Optional: To center the text */
+  padding: 20px; /* Optional: Adds some padding for spacing */
+  background-color: white; /* Optional: Adds a dark background for contrast */
+  border-radius: 8px; /* Optional: Gives rounded corners */
+}
+
+#contact h2 {
+  font-size: 2rem; /* Adjust heading size */
+  margin-bottom: 10px; /* Adds space below the heading */
+  color: #ffcc00; /* Optional: Add a distinct color for the heading */
+}
+
+#contact p {
+  font-size: 1rem; /* Adjust paragraph size */
+  line-height: 1.6; /* Improve readability with line height */
+}
